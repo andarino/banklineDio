@@ -21,8 +21,10 @@ public class Movimentacao {
 	@Column(name = "data_hora")
 	private LocalDateTime dataHora;
 	
+	@Column(name = "descricao")
 	private String descricao;
 	
+	@Column(name = "valor")
 	private Double valor;
 	
 	@Enumerated(EnumType.STRING)	
